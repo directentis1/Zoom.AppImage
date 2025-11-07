@@ -3,12 +3,12 @@ version: 1
 AppDir:
   app_info:
     name: zoom
-    version: 2.3.5
+    version: 6.6.6
 
   ingredients:
-    dist: xenial
+    dist: jammy
     sources:
-      - deb http://us.archive.ubuntu.com/ubuntu/ xenial main universe
+      - deb http://us.archive.ubuntu.com/ubuntu/ jammy main universe
     packages:
       - libxcb-xtest0
       - libxcb-image0
